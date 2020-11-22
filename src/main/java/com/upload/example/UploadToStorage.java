@@ -29,7 +29,7 @@ public class UploadToStorage extends HttpServlet{
 
 	private static Storage storage = null;
 
-	private static final String BUCKET_NAME = "wave15-dhauptman.appspot.com";
+	private static final String BUCKET_NAME = "[PROJECT_ID].appspot.com";
 	private static final String FILE_NAME = "testimage.jpg";
 
 	// [START init]
